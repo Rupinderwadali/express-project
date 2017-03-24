@@ -1,0 +1,58 @@
+h2 supplier_sign_up
+form(action='/sign_up', method='post')
+    | email :
+    input(type='text',name='email')
+    br
+    | name :
+    input(type='text',name='name')
+    br
+    |password:
+    input(type='text',name='password')
+    br
+    |phone_no
+    input(type='text',name='phone_no')
+    br
+    |city
+    input(type='text',name='city')
+    br
+    |state
+    input(type='text',name='state')
+    br
+    |country
+    input(type='text',name='country')
+    br
+    input(type='submit',value='submit')
+    br
+    hr
+    br
+h2 ADMIN login
+form(action='/login', method='post')
+    | email :
+    input(type='text',name='email')
+    br
+    | password :
+    input(type='text',name='password')
+    br
+    br
+    input(type='submit',value='submit')
+    br
+    hr
+h2 Supplier Addition Form
+form(action='/supplier_add', method='post')
+    | Supplier id :
+    input(type='text',name='sid')
+    br
+    | name :
+    input(type='text',name='sname')
+    br
+    br
+    input(type='submit',value='accept')
+    br
+    hr
+h2 Show supplier list
+form(action='/show',method='post')
+    hr
+    br
+    input(type='submit',value='show')
+    br
+    hr

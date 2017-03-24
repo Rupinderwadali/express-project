@@ -1,0 +1,19 @@
+{
+  "databaseSettings": {
+    "host": "localhost",
+    "user": "root",
+    "password": "codebrew",
+    "database": "hairfyx"
+  },
+  "EmailCredentials": {
+    "email": "",
+    "password": ""
+  },
+  "PORT":3001,
+  "s3BucketCredentials": {
+    "bucket": "",
+    "accessKeyId": "",
+    "secretAccessKey": "",
+    "s3URL": ""
+  }
+}

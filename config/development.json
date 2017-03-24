@@ -1,0 +1,19 @@
+{
+  "databaseSettings": {
+    "host": "localhost",
+    "user": "root",
+    "password": "",
+    "database": "Swimpy"
+  },
+  "EmailCredentials": {
+    "email": "",
+    "password": ""
+  },
+  "PORT":3065,
+  "s3BucketCredentials": {
+    "bucket": "",
+    "accessKeyId": "",
+    "secretAccessKey": "",
+    "s3URL": ""
+  }
+}
